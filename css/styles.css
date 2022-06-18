@@ -4,6 +4,7 @@
 body {
     display: flex;
     justify-content: center;
+    flex-direction: column;
 }
 a {
     text-decoration: none;
@@ -57,4 +58,44 @@ header {
 .nav__link:hover {
     color: #000000;
     border-bottom: 5px solid dodgerblue;
+}
+.main {
+    width: 100%;
+}
+.main__container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+.main__element > h1 {
+    text-align: center;
+    font: normal normal normal 49px/57px Raleway;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin-top: 130px;
+}
+.main__element > p {
+    text-align: center;
+    font: normal normal normal 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: #000000;
+    opacity: 1;
+    margin: 20px 0 38px 0;
+}
+.main__element > a {
+    text-align: center;
+    font: normal normal bold 16px/22px Open Sans;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    opacity: 1;
+    background: #08A6E4 0 0 no-repeat padding-box;
+    box-shadow: 5px 10px 14px #07ACE629;
+    border-radius: 40px;
+    padding: 22px 157px;
+}
+.main__img {
+    max-width: 100%;
 }
